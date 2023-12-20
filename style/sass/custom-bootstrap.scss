@@ -24,8 +24,8 @@ $my-font-stack--extra: v.$my-font-stack--extra;
 
 $my-shadow: v.$my-shadow;
 
-@import "../../node_modules/bootstrap/scss/functions";
-@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/_functions";
+@import "../../node_modules/bootstrap/scss/_variables";
 
 html, 
 body {
