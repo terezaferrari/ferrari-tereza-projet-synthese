@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Bouquets Express</title>
+    <meta name="description" content="livraison express">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/css/custom-bootstrap.css" />
+    <script src="./index.js"></script>
+    <link rel="icon" href="img/favicon.ico" />
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid">
+            <!-- navbar - secondary -->
+
+            <nav class="container navbar-secondary pt-4 m-0 border-0 bd-example">
+                <ul class="nav d-flex justify-content-end">
+
+                    <li class="nav-item ps-5">
+                        <a class="link--secondary" href="connexion.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="color-white--svg bi bi-person-circle me-2" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                                <path fill-rule="evenodd"
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                            </svg> Mon Compte
+                        </a>
+                    </li>
+
+                    <li class="nav-item ms-5">
+                        <a class="link--secondary" href="panier.html"> <svg xmlns="http://www.w3.org/2000/svg"
+                                width="20" height="20" fill="currentColor" class="color-white--svg bi bi-cart me-2"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                            </svg> (0)
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- navbar - menu principal -->
+
+            <nav class="container navbar navbar-expand-lg p-0 bg-body-tertiary">
+
+                <div class="container-fluid header">
+                    <a class="navbar-brand nav-link ms-2 pb-3" href="index.html">
+                        <img src="img/logo-truck-white.png" alt="logo Bouquets Express" width="130">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+                        <ul class="navbar-nav me-auto mb-2 mb-0">
+                            <li class="nav-item actives">
+                                <a class="nav-link link--secondary" href="a-propos.html">À propos</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="btn my-btn--info" href="boutique.html"
+                                    aria-label="Page soumission">Boutique</a>
+                            </li>
+                        </ul>
+
+                        <form class="d-flex" role="search">
+                            <input class="form-control ps-4 me-5" type="search" placeholder="Recherche"
+                                aria-label="Search">
+
+                            <a class="link--secondary  me-2" href="boutique.html" aria-label="rechercher">Recherche</a>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+        <div class="container-fluid message-header">
+            <p class="text-center pt-1 pb-1"> Nous offrons des services de livraison adapté à vos besoins!</p>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- intro  -->
+
+        <section class="container text-center mt-5">
+            <h2 class="mb-3">À propos de nous et de l’entreprise</h2>
+            <p class="pb-5">Bouquets Express est la reference en bouquets de fleurs sur mesures à Trois-Rivières.</p>
+        </section>
+
+
+        <!-- session 1  -->
+
+        <section class="container p-3 m-5">
+            <div class="row">
+
+                <div class="col m-5">
+                    <h2 class="mb-1"> Notre Entreprise <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            fill="currentColor" class="bi bi-stars  me-2 mb-2" viewBox="0 0 16 16">
+                            <path
+                                d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828l.645-1.937zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.734 1.734 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.734 1.734 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.734 1.734 0 0 0 3.407 2.31l.387-1.162zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L10.863.1z" />
+                        </svg></h2>
+                    <h6 class="mb-3">Sous titre de la section</h6>
+                    <p> Morem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a,
+                        mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut
+                        interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class
+                        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent
+                        auctor purus. Morem ipsum
+                        dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis
+                        tellus.
+                        ut interdum tellus elit sed risus. Maecenas eget condimentum velit torquent per conubia nostra.
+                    </p>
+                </div>
+                <div class="col mt-5">
+                    <img class="float-md-end ms-md-3" width="100%" src="img/background-horizontal2.png"
+                        alt="photo bouquet">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- session 2 -->
+
+        <section class="container p-3 m-5">
+            <div class="row mb-5">
+                <div class="col mt-5 ms-5">
+                    <img class="float-md-end" width="100%" src="img/10.png" alt="photo orchidées">
+                </div>
+                <div class="col m-5">
+                    <h2 class="mb-1"> Notre Mission <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            fill="currentColor" class="bi bi-stars  me-2 mb-2" viewBox="0 0 16 16">
+                            <path
+                                d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828l.645-1.937zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.734 1.734 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.734 1.734 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.734 1.734 0 0 0 3.407 2.31l.387-1.162zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L10.863.1z" />
+                        </svg>
+                    </h2>
+                    <h6 class="mb-3">Sous titre de la section</h6>
+                    <p> Morem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a,
+                        mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut
+                        interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class
+                        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent
+                        auctor purus. Morem ipsum
+                        dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis
+                        tellus.
+                        ut interdum tellus elit sed risus. Maecenas eget condimentum velit torquent per conubia nostra.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- footer -->
+
+    <footer class="container-fluid m-0 px-4 pt-4">
+        <div class="container">
+            <hr class="border border-v.$secondary">
+
+            <div class="pt-3">
+                <a href="index.html">
+                    <img src="img/logo-white.png" alt="logo Bouquets Express" width="80">
+                </a>
+            </div>
+
+            <div class="row gx-5 ps-5 ms-5">
+
+                <div class="col gx-5">
+                    <div class="row">
+
+                        <div class="p-3">
+                            <a href="www.facebook.com">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="color-white--svg bi bi-facebook" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                </svg></a>
+                        </div>
+
+                        <div class="p-3">
+                            <a href="www.pinterest.com">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="color-white--svg bi bi-pinterest" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0" />
+                                </svg></a>
+                        </div>
+
+                        <div class="p-3">
+                            <a href="www.instagram.com">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="color-white--svg bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col gx-5">
+                    <div class="row">
+
+                        <div class="p-3">
+                            <a href="connexion.html" aria-lebel="Page mon compte" class="link--secondary">Mon
+                                Compte</a>
+                        </div>
+
+                        <div class="p-3">
+                            <a href="a-propos.html" aria-label="Page à propos" class="link--secondary">À Propos</a>
+                        </div>
+
+                        <div class="p-3">
+                            <a href="boutique.html" aria-label="Page boutique" class="link--secondary">Boutique</a>
+                        </div>
+
+                        <div class="p-3">
+                            <a href="index.html" aria-label="Page à propos" class="link--secondary">Privacy Policy</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col gx-5">
+                    <h5 class="color-white">Contactez-nous </h5>
+                    <div class="row">
+
+                        <div class="p-2">
+                            <address>
+                                <a class="link--secondary" href="tel:+4383572629">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="color-white--svg bi bi-phone me-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                                        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                                    </svg>(438) 357-2629</a>
+                            </address>
+                        </div>
+
+                        <div class="p-2">
+                            <address>
+                                <a class="link--secondary" href="universal@universalstudios.ca"> <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="color-white--svg bi bi-envelope me-2" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                                    </svg>fleuriste@bouquetexpress.com</a>
+                            </address>
+                        </div>
+
+                        <div class="p-2">
+                            <p class="color-white mb-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="color-white--svg bi bi-geo-alt me-2" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                                </svg>3175, Boulevard Laviolette
+                            </p>
+                            <p class="color-white mx-4 mb-0">Trois-Rivières - QC</p>
+                            <p class="color-white mx-4">G8Z 1E9</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <hr class="border border-v.$secondary">
+            <p class="color-white pb-4">Fait par: Tereza Ferrari</p>
+        </div>
+    </footer>
+
+    <script src="https://getbootstrap.com/docs/5.3/getting-started/introduction/"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
