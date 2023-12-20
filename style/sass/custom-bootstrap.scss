@@ -1,0 +1,222 @@
+@use "variables" as v;
+
+//Modification des variables
+$my-primary: v.$my-primary; 
+$my-primary-10: v.$my-primary-10; 
+$my-primary-20: v.$my-primary-20; 
+
+$my-secondary: v.$my-secondary; 
+$my-secondary-10: v.$my-secondary-10; 
+
+
+$my-info: v.$my-info; 
+$my-info-10: v.$my-info-10; 
+$my-info-20: v.$my-info-20; 
+
+$my-dark: v.$my-dark; 
+
+$my-light: v.$my-light; 
+$my-light-10: v.$my-light-10; 
+$my-light-20: v.$my-light-20; 
+
+$my-font-stack: v.$my-font-stack;
+$my-font-stack--extra: v.$my-font-stack--extra;
+
+$my-shadow: v.$my-shadow;
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+html, 
+body {
+    background-color: v.$my-secondary;
+}
+
+.header, header, footer{
+    background-color: v.$my-primary;
+}
+
+.message-header{
+    background-color: v.$my-dark;
+    color: v.$my-secondary;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: v.$my-font-stack--extra !important;
+    color: v.$my-dark;
+}
+
+p, a{
+    font-family: v.$my-font-stack !important;
+    font-size: medium;
+}
+.original-typo{
+font-family: v.$my-font-stack;
+}
+
+.alternative-typo{
+    font-family:v.$my-font-stack--extra !important;
+}
+
+.background-green{
+background-color: v.$my-primary;
+color: v.$my-secondary;
+
+}
+
+
+ .my-btn--primary{
+    background-color:v.$my-primary-10; 
+    color:v.$my-secondary; 
+    font-family: v.$my-font-stack !important;
+    padding: 10px 20px 10px 20px;
+    border: 2px v.$my-primary-10; 
+    font-weight: bold;
+    letter-spacing: 2px;
+    &:hover{ 
+        background-color: v.$my-primary; 
+        color:v.$my-secondary; 
+        box-shadow: v.$my-shadow;
+    }
+    &:active{
+        background-color:v.$my-secondary; 
+        color: v.$my-primary-20;
+        box-shadow: v.$my-shadow;
+    }
+}
+
+  .my-btn--info{
+    background-color:v.$my-info-10;  
+    color:v.$my-secondary; 
+    font-family: v.$my-font-stack !important;
+    padding: 10px 20px 10px 20px;
+    border: 2px v.$my-info-10;  
+    font-weight:normal;
+    letter-spacing: 2px;
+    &:hover{ 
+        background-color: v.$my-info;
+        color:v.$my-secondary; 
+        box-shadow: v.$my-shadow;
+    }
+    &:active{
+        background-color:v.$my-secondary;
+        color: v.$my-info-20; 
+        box-shadow: v.$my-shadow;
+    }
+}
+
+.link--light{ 
+    color:v.$my-light-10; 
+    font-family: v.$my-font-stack !important;
+    font-weight:normal;
+    letter-spacing: 2px;
+    text-decoration: none;
+    &:hover{ 
+    color:v.$my-light-20; 
+    font-family: v.$my-font-stack !important;
+    font-weight:normal;
+    letter-spacing: 2px;
+    text-decoration:underline 2px v.$my-secondary;
+    }
+    &:active{
+    color: v.$my-light;
+    font-family: v.$my-font-stack !important;
+    font-weight:normal;
+    letter-spacing: 2px;
+    }
+}
+
+.link--secondary{ 
+    color:v.$my-secondary; 
+    font-family: v.$my-font-stack !important;
+    font-weight:normal;
+    letter-spacing: 2px;
+    text-decoration: none;
+        &:hover{ 
+        color:v.$my-secondary;
+        font-family: v.$my-font-stack !important;
+        font-weight:normal;
+        letter-spacing: 2px;
+        text-decoration:underline 2px v.$my-secondary;
+        }
+    &:active{
+        color:v.$my-secondary; 
+        font-family: v.$my-font-stack !important;
+        font-weight:normal;
+        letter-spacing: 2px;
+        }
+    }
+
+    .color-white--svg{
+        color: v.$my-secondary;
+        text-decoration: none;
+            &:hover{
+                box-shadow: v.$my-shadow;
+            }
+    }
+
+.my-shadow {
+    &:hover{
+        box-shadow: v.$my-shadow;
+    }
+}
+
+.subscribe{
+    background-color: v.$my-light;
+}
+.infolettre{
+    background-color: v.$my-light;
+} 
+
+.front-page{
+    background-image: url(../../img/background1.png);
+    background-size: cover;
+    max-width: 100%;  
+    height: 50vh;
+}
+
+.image-background__boutique {
+    background-image: url(../../img/backgroud2-opacity.jpg);
+    background-size: cover;
+}
+
+.detail-livraison{
+    background-color: v.$my-light
+}
+
+ .color-white{
+    color: v.$my-secondary !important;
+}
+
+.color-black{
+    color: v.$my-dark !important;
+}
+
+.color-black--link{
+    color: v.$my-dark;
+    text-decoration: none;
+        &:hover{ 
+            text-decoration: underline;
+        }
+}
+
+.color-black--svg{
+    color: v.$my-dark;
+    text-decoration: none;
+        &:hover{
+            box-shadow: v.$my-shadow;
+        }
+}
+
+.panier--svg{
+    color: v.$my-dark;
+    text-decoration: none;
+        &:hover{
+            width: 25px;
+            height: 25px;
+        }
+}
+
+

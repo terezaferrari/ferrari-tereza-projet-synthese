@@ -1,0 +1,28 @@
+//Fonts custom
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;600;700&family=Rosarivo&display=swap');
+$my-font-stack: 'Noto Sans', sans-serif;
+$my-font-stack--extra: 'Rosarivo', 'serif';
+
+
+//Couleurs custom
+$my-primary: #2F4535;
+$my-primary-10: #3C4E41;
+$my-primary-20: #4F5F53;
+
+$my-secondary: #F6F3F0;
+$my-secondary-10: #FFFBF8;
+
+
+$my-info: #B26C52;
+$my-info-10: #B16F5A;
+$my-info-20: #B97D6B;
+
+$my-dark: #1E251F;
+
+$my-light: #C3A894;
+$my-light-10: #C2A796;
+$my-light-20: #C8B0A0;
+
+
+//Effet shadow 
+$my-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

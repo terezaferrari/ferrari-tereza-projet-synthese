@@ -1,3 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;600;700&family=Rosarivo&display=swap");
+html,
+body {
+  background-color: #F6F3F0;
+}
 
+.header, header, footer {
+  background-color: #2F4535;
+}
+
+.message-header {
+  background-color: #1E251F;
+  color: #F6F3F0;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Rosarivo", "serif" !important;
+  color: #1E251F;
+}
+
+p, a {
+  font-family: "Noto Sans", sans-serif !important;
+  font-size: medium;
+}
+
+.original-typo {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.alternative-typo {
+  font-family: "Rosarivo", "serif" !important;
+}
+
+.background-green {
+  background-color: #2F4535;
+  color: #F6F3F0;
+}
+
+.my-btn--primary {
+  background-color: #3C4E41;
+  color: #F6F3F0;
+  font-family: "Noto Sans", sans-serif !important;
+  padding: 10px 20px 10px 20px;
+  border: 2px #3C4E41;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.my-btn--primary:hover {
+  background-color: #2F4535;
+  color: #F6F3F0;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.my-btn--primary:active {
+  background-color: #F6F3F0;
+  color: #4F5F53;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-btn--info {
+  background-color: #B16F5A;
+  color: #F6F3F0;
+  font-family: "Noto Sans", sans-serif !important;
+  padding: 10px 20px 10px 20px;
+  border: 2px #B16F5A;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+.my-btn--info:hover {
+  background-color: #B26C52;
+  color: #F6F3F0;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.my-btn--info:active {
+  background-color: #F6F3F0;
+  color: #B97D6B;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.link--light {
+  color: #C2A796;
+  font-family: "Noto Sans", sans-serif !important;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+.link--light:hover {
+  color: #C8B0A0;
+  font-family: "Noto Sans", sans-serif !important;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-decoration: underline 2px #F6F3F0;
+}
+.link--light:active {
+  color: #C3A894;
+  font-family: "Noto Sans", sans-serif !important;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.link--secondary {
+  color: #F6F3F0;
+  font-family: "Noto Sans", sans-serif !important;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+.link--secondary:hover {
+  color: #F6F3F0;
+  font-family: "Noto Sans", sans-serif !important;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-decoration: underline 2px #F6F3F0;
+}
+.link--secondary:active {
+  color: #F6F3F0;
+  font-family: "Noto Sans", sans-serif !important;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.color-white--svg {
+  color: #F6F3F0;
+  text-decoration: none;
+}
+.color-white--svg:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-shadow:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.subscribe {
+  background-color: #C3A894;
+}
+
+.infolettre {
+  background-color: #C3A894;
+}
+
+.front-page {
+  background-image: url(../../img/background1.png);
+  background-size: cover;
+  max-width: 100%;
+  height: 50vh;
+}
+
+.image-background__boutique {
+  background-image: url(../../img/backgroud2-opacity.jpg);
+  background-size: cover;
+}
+
+.detail-livraison {
+  background-color: #C3A894;
+}
+
+.color-white {
+  color: #F6F3F0 !important;
+}
+
+.color-black {
+  color: #1E251F !important;
+}
+
+.color-black--link {
+  color: #1E251F;
+  text-decoration: none;
+}
+.color-black--link:hover {
+  text-decoration: underline;
+}
+
+.color-black--svg {
+  color: #1E251F;
+  text-decoration: none;
+}
+.color-black--svg:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.panier--svg {
+  color: #1E251F;
+  text-decoration: none;
+}
+.panier--svg:hover {
+  width: 25px;
+  height: 25px;
+}
 
 /*# sourceMappingURL=custom-bootstrap.css.map */
